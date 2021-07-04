@@ -1,0 +1,23 @@
+.main-quick-menu-list {
+  font-size: 13px;
+  line-height: 13px;
+  word-spacing: 0px;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.main-quick-menu-list li {
+  background-color: #f2f2f2;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border: 0.5px solid gray;
+}
+
+.main-quick-menu-list dl {
+  text-align: center;
+  vertical-align: middle;
+}

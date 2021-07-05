@@ -17,11 +17,13 @@ a {
 .navbar__logo {
   font-size: 23px;
   margin-left: 20px;
+  font-weight: 600;
 }
 
 .navbar__logo h6 {
   margin: 0px 0px 0px 5px;
   font-size: 17px;
+  font-weight: 800;
 }
 
 .navbar__menu {
@@ -32,7 +34,8 @@ a {
 
 .navbar__menu li {
   padding: 8px 25px;
-  font-size: 17px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .main-board-con-list {
@@ -88,4 +91,10 @@ a {
   margin-left: 0px;
   text-align: center;
   vertical-align: middle;
+}
+
+/* company */
+
+.company-mainVisual img {
+  width: 100%;
 }

@@ -93,8 +93,10 @@ a {
   vertical-align: middle;
 }
 
-/* company */
+.footer {
+  text-align: center;
+}
 
-.company-mainVisual img {
+.footer img {
   width: 100%;
 }

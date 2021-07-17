@@ -5,269 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title> Main </title>
+    <title> Artner Counsulting Website </title>
+    <meta name="description" content="Website for Artner">
+    <meta name="author" content="Dev.Choo">
+    <link rel="icon" type="image/png" href="/img/artner_favicon.png" /> <!-- 웹사이트 파비콘!! -->
     <script src="https://kit.fontawesome.com/0564072d18.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="main.js" defer></script>
 </head>
 
 <body>
-    <nav class = "navbar">
-
-        <div class = "navbar__logo">
-            <a href="index.html"> (주)아트너컨설팅 
-                <h6> Artner Consulting </h6>
-            </a> <!-- 여기에는 따로 포토샵으로 제작해서 넣자!-->
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <img src="/img/artner_favicon.png" />
+            <a href="#">Dev.Choo</a>
         </div>
-
-        <ul class = "navbar__menu">
-            <li> <a href="company.html"> Company </a> </li>
-            <li> <a href="consulting.html"> Consulting </a> </li>
-            <li> <a href="eduLicense.html"> Edu/License </a> </li>
-            <li> <a href="software.html"> Software </a> </li>
-            <li> <a href="service.html"> Service </a> </li>
-            <li> <a href="reference.html"> Reference </a> </li>
-        </ul>
-
+        <div class="navbar__menu">
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item">HOME</li>
+                <li class="navbar__menu__item">ABOUT</li>
+                <li class="navbar__menu__item">CONSULTING</li>
+                <li class="navbar__menu__item">EDU&LICENSE</li>
+                <li class="navbar__menu__item">SOFTWARE</li>
+                <li class="navbar__menu__item">CONTACT</li>
+            </ul>
+        </div>
     </nav>
 
-    <div class="mainVisual">
-        <img src="picture/mainVisual.png">
-    </div>
-
-    <div id = "mainContainer">
-        <section id = "mainContent">
-
-            <article id="mainBoardCon">
-                <div class="area">
-                    <div class="main-board-con-list clearfix pc-list">
-
-                        <div class="main-board-item news-item">
-                            <div class="main-board-tit-box">
-                                <h4> News </h4>
-                            </div>
-
-                            <div class="main-board-list-box">
-                                <ul class="main-board-list">
-                                    <li>
-                                        <p class="bbs-tit">
-                                            (주)아트너컨설팅, 국내 최초 컨설팅 회사 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            뉴스레터 21년 6월호_Vol.51 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            뉴스레터 21년 5월호_Vol.50 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            KCIA 내부감사사 자격과정 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            국내 최초 IDEA 도입 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="main-board-item consulting-item">
-                            <div class="main-board-tit-box">
-                                <h4> Consulting </h4>
-                            </div>
-
-                            <div class="main-board-list-box">
-                                <ul class="main-board-list">
-                                    <li>
-                                        <p class="bbs-tit">
-                                            (주)아트너컨설팅, 국내 최초 컨설팅 회사 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            뉴스레터 21년 6월호_Vol.51 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            뉴스레터 21년 5월호_Vol.50 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            KCIA 내부감사사 자격과정 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            국내 최초 IDEA 도입 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="main-board-item education-item">
-                            <div class="main-board-tit-box">
-                                <h4> Edu/License </h4>
-                            </div>
-
-                            <div class="main-board-list-box">
-                                <ul class="main-board-list">
-                                    <li>
-                                        <p class="bbs-tit">
-                                            (주)아트너컨설팅, 국내 최초 컨설팅 회사 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            뉴스레터 21년 6월호_Vol.51 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            뉴스레터 21년 5월호_Vol.50 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            KCIA 내부감사사 자격과정 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            국내 최초 IDEA 도입 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="main-board-item software-item">
-                            <div class="main-board-tit-box">
-                                <h4> Software </h4>
-                            </div>
-
-                            <div class="main-board-list-box">
-                                <ul class="main-board-list">
-                                    <li>
-                                        <p class="bbs-tit">
-                                            (주)아트너컨설팅, 국내 최초 컨설팅 회사 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            뉴스레터 21년 6월호_Vol.51 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            뉴스레터 21년 5월호_Vol.50 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            KCIA 내부감사사 자격과정 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="bbs-tit">
-                                            국내 최초 IDEA 도입 <!-- a태그에 묶으면 왜 안나오지?-->
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </article>
-
-            <article id="mainQuickMenu">
-                <div class="main-quick-menu area">
-                    <ul class="main-quick-menu-list clearfix">
-                        <li>
-                            <a href="#">
-                                <dl class="clearfix">
-                                    <dt>
-                                        <i class="fas fa-bell fa-2x"></i> <!-- 자주하는 질문 종모양 그림-->
-                                    </dt>
-                                    <dd>
-                                        <strong class="tit"> 자주하는 질문 </strong>
-                                    </dd>
-                                </dl>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <dl class="clearfix">
-                                    <dt>
-                                        <i class="fas fa-user-friends fa-2x"></i> <!-- 자주하는 질문 종모양 그림-->
-                                    </dt>
-                                    <dd>
-                                        <strong class="tit"> 구인/구직 </strong>
-                                    </dd>
-                                </dl>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <dl class="clearfix">
-                                    <dt>
-                                        <i class="fas fa-id-badge fa-2x"></i> <!-- 자주하는 질문 종모양 그림-->
-                                    </dt>
-                                    <dd>
-                                        <strong class="tit"> ICPP </strong>
-                                    </dd>
-                                </dl>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <dl class="clearfix">
-                                    <dt>
-                                        <i class="far fa-id-badge fa-2x"></i> <!-- 자주하는 질문 종모양 그림-->
-                                    </dt>
-                                    <dd>
-                                        <strong class="tit"> KCIA </strong>
-                                    </dd>
-                                </dl>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <dl class="clearfix">
-                                    <dt>
-                                        <i class="fas fa-laptop fa-2x"></i> <!-- 자주하는 질문 종모양 그림-->
-                                    </dt>
-                                    <dd>
-                                        <strong class="tit"> IDEA </strong>
-                                    </dd>
-                                </dl>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </article>
-
-        </section>
-    </div>
-
-    <footer class="footer">
-        <img src="picture/Footer.png">
-    </footer>
+    <!-- About COMPANY -->
+    <section id="about"></section>
+    <!-- CONSULTING -->
+    <section id="consulting"></section>
+    <!-- EDU&LICENSE -->
+    <section id="edu"></section>
+    <!-- SOFTWARE -->
+    <section id="software"></section>
+    <!-- Contact -->
+    <section id="contact"></section>
 
 </body>
 

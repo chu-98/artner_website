@@ -1,0 +1,63 @@
+/* Global */
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-blue: #63a4ff;
+  --color-blue: #1976d2;
+  --color-dark-blue: #004ba0;
+  --color-light-orange: #ffd149;
+  --color-orange: #ffa000;
+  --color-dark-orange: #c67100;
+  --color-light-gray: #6d6d6d;
+  --color-gray: #616161;
+  --color-dark-gray: #373737;
+  --color-black: #000000;
+
+  /* Font Size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font Weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /* Size */
+}
+
+/* Universal Tags */
+* {
+  box-sizing: border-box;
+}
+
+/* Typography */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-black);
+  margin: 16px 0px;
+}
+
+h2 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-black);
+  margin: 8px 0px;
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 8px 0px;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 4px 0px;
+}

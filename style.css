@@ -8,7 +8,8 @@
   --color-light-orange: #ffd149;
   --color-orange: #ffa000;
   --color-dark-orange: #c67100;
-  --color-light-gray: #6d6d6d;
+  --color-light-gray: #fbfbfb;
+  --color-semi-gray: #808080;
   --color-gray: #616161;
   --color-dark-gray: #373737;
   --color-black: #000000;
@@ -55,6 +56,16 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+}
+
+.moreButton {
+  color: var(--color-black);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-black);
+  border-radius: var(--size-border-radius);
 }
 
 /* Typography */
@@ -144,4 +155,59 @@ p {
 
 .home__contact:hover {
   background-color: var(--color-dark-gray);
+}
+
+/* Section Common */
+.section {
+  padding: 80px;
+  text-align: center;
+  margin: auto;
+}
+
+/* About */
+#about {
+  background-color: var(--color-light-gray);
+}
+
+#about img {
+  width: 100%;
+}
+
+.about__majors {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0px;
+}
+
+.major__icon {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  font-size: 60px;
+  margin: auto;
+}
+
+.major {
+  border-radius: var(--size-border-radius);
+  padding: 40px;
+  background-color: var(--color-semi-gray);
+  color: var(--color-white);
+}
+
+.major__title {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+}
+
+.major__decription {
+  font-size: var(--font-small);
+}
+
+.major__icon:hover {
+  color: var(--color-dark-gray);
+  transform: rotate(10deg) scale(1.1);
+}
+
+.major__icon i {
+  transition: all 300ms ease;
 }

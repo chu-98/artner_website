@@ -68,6 +68,10 @@ button {
   border-radius: var(--size-border-radius);
 }
 
+.moreButton:hover {
+  background-color: var(--color-semi-gray);
+}
+
 /* Typography */
 h1 {
   font-size: var(--font-large);
@@ -118,6 +122,11 @@ p {
   border-radius: var(--size-border-radius);
 }
 
+.navbar__menu li:hover {
+  background-color: var(--color-dark-gray);
+  border: 1px solid var(--color-white);
+}
+
 .navbar__logo {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
@@ -162,6 +171,7 @@ p {
   padding: 40px 80px;
   text-align: center;
   margin: auto;
+  border-bottom: 1px solid var(--color-black);
 }
 
 /* About */
@@ -277,3 +287,14 @@ p {
   margin-right: 10px;
   font-weight: var(--weight-semi-bold);
 }
+
+/* Consulting */
+#consulting {
+  background-color: var(--color-light-gray);
+}
+
+#consulting img {
+  width: 100%;
+}
+
+/* Edu&License */

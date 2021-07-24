@@ -82,9 +82,10 @@ h1 {
 
 h2 {
   font-size: var(--font-regular);
-  font-weight: var(--weight-semi-bold);
+  font-weight: var(--weight-regular);
   color: var(--color-black);
   margin: 8px 0px;
+  padding-bottom: 36px;
 }
 
 h3 {
@@ -298,3 +299,68 @@ p {
 }
 
 /* Edu&License */
+#edu {
+  background-color: var(--color-light-gray);
+}
+
+#edu img {
+  width: 100%;
+}
+
+.edu__curriculum {
+  background-color: var(--color-gray);
+  text-align: center;
+}
+
+.edu__curriculum h1 {
+  padding-top: 56px;
+}
+
+.edu__curriculum h2 {
+  padding-bottom: 48px;
+}
+
+.edu__curriculum h1,
+.edu__curriculum h2 {
+  margin: 0;
+  color: var(--color-white);
+}
+
+.edu__curriculum-button {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+
+.edu__curriculum-button:hover {
+  background-color: var(--color-dark-gray);
+}
+
+.edu__curriculum-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.edu__curriculum-title {
+  background-color: var(--color-dark-gray);
+  color: var(--color-white);
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+  padding: 30px;
+  margin-right: 20px;
+  border-radius: var(--size-border-radius);
+  border: 1px solid var(--color-white);
+}
+
+.edu__curriculum-info {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  padding: 15px;
+}

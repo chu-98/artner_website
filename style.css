@@ -9,8 +9,8 @@
   --color-orange: #ffa000;
   --color-dark-orange: #c67100;
   --color-light-gray: #fbfbfb;
-  --color-semi-gray: #808080;
-  --color-gray: #616161;
+  --color-semi-gray: #8f8f8f;
+  --color-gray: #888788;
   --color-dark-gray: #373737;
   --color-black: #000000;
 
@@ -59,31 +59,27 @@ button {
 }
 
 .moreButton {
-  color: var(--color-black);
+  color: var(--color-dark-gray);
   font-size: var(--font-regular);
   font-weight: var(--weight-bold);
   margin: 24px;
   padding: 8px 12px;
-  border: 2px solid var(--color-black);
+  border: 2px solid var(--color-dark-gray);
   border-radius: var(--size-border-radius);
-}
-
-.moreButton:hover {
-  background-color: var(--color-semi-gray);
 }
 
 /* Typography */
 h1 {
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
-  color: var(--color-black);
+  color: var(--color-dark-gray);
   margin: 16px 0px;
 }
 
 h2 {
   font-size: var(--font-regular);
   font-weight: var(--weight-regular);
-  color: var(--color-black);
+  color: var(--color-dark-gray);
   margin: 8px 0px;
   padding-bottom: 36px;
 }
@@ -91,14 +87,14 @@ h2 {
 h3 {
   font-size: var(--font-regular);
   font-weight: var(--weight-regular);
-  color: var(--color-black);
+  color: var(--color-dark-gray);
   margin: 8px 0px;
 }
 
 p {
   font-size: var(--font-regular);
   font-weight: var(--weight-regular);
-  color: var(--color-black);
+  color: var(--color-gray);
   margin: 4px 0px;
 }
 
@@ -121,6 +117,7 @@ p {
   margin: 0 4px;
   cursor: pointer;
   border-radius: var(--size-border-radius);
+  font-weight: var(--weight-semi-bold);
 }
 
 .navbar__menu li:hover {
@@ -133,13 +130,16 @@ p {
   font-weight: var(--weight-semi-bold);
 }
 
+.navbar__logo img {
+  width: 230px;
+}
 .navbar__menu__item:hover {
   background-color: var(--color-gray);
 }
 
 /* Home */
 #home {
-  background-color: var(--color-gray);
+  background-color: var(--color-dark-gray);
   padding: 0px 0px 20px 0px;
   text-align: center;
 }
@@ -169,17 +169,13 @@ p {
 
 /* Section Common */
 .section {
-  padding: 40px 80px;
+  padding: 40px 60px;
   text-align: center;
   margin: auto;
-  border-bottom: 1px solid var(--color-black);
-}
-
-/* About */
-#about {
   background-color: var(--color-light-gray);
 }
 
+/* About */
 #about img {
   width: 100%;
 }
@@ -223,6 +219,70 @@ p {
   transition: all 300ms ease;
 }
 
+/* Consulting */
+#consulting img {
+  width: 100%;
+}
+
+/* Edu&License */
+#edu img {
+  width: 100%;
+}
+
+.edu__curriculum {
+  text-align: center;
+}
+
+.edu__curriculum h1 {
+  padding: 48px 0 24px 0;
+  font-size: calc(var(--font-large) / 1.2);
+}
+
+.edu__curriculum h2 {
+  padding-bottom: 48px;
+  font-size: calc(var(--font-regular) / 1.2);
+}
+
+.edu__curriculum h1,
+.edu__curriculum h2 {
+  margin: 0;
+}
+
+.edu__curriculum-button {
+  color: var(--color-dark-gray);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-dark-gray);
+  border-radius: var(--size-border-radius);
+}
+
+.edu__curriculum-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.edu__curriculum-title {
+  background-color: var(--color-dark-gray);
+  color: var(--color-white);
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+  padding: 30px;
+  margin-right: 20px;
+  border-radius: var(--size-border-radius);
+  border: 1px solid var(--color-white);
+}
+
+.edu__curriculum-info {
+  color: var(--color-dark-gray);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  padding: 15px;
+}
+
 /* Contact */
 #contact {
   background-color: var(--color-black);
@@ -248,6 +308,10 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.contact__infoIcon img {
+  width: 270px;
 }
 
 .contact__infoLocal--name,
@@ -287,80 +351,4 @@ p {
 .contact__infoCall--emailFirst {
   margin-right: 10px;
   font-weight: var(--weight-semi-bold);
-}
-
-/* Consulting */
-#consulting {
-  background-color: var(--color-light-gray);
-}
-
-#consulting img {
-  width: 100%;
-}
-
-/* Edu&License */
-#edu {
-  background-color: var(--color-light-gray);
-}
-
-#edu img {
-  width: 100%;
-}
-
-.edu__curriculum {
-  background-color: var(--color-gray);
-  text-align: center;
-}
-
-.edu__curriculum h1 {
-  padding-top: 56px;
-}
-
-.edu__curriculum h2 {
-  padding-bottom: 48px;
-}
-
-.edu__curriculum h1,
-.edu__curriculum h2 {
-  margin: 0;
-  color: var(--color-white);
-}
-
-.edu__curriculum-button {
-  color: var(--color-white);
-  font-size: var(--font-regular);
-  font-weight: var(--weight-bold);
-  margin: 24px;
-  padding: 8px 12px;
-  border: 2px solid var(--color-white);
-  border-radius: var(--size-border-radius);
-}
-
-.edu__curriculum-button:hover {
-  background-color: var(--color-dark-gray);
-}
-
-.edu__curriculum-table {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px;
-}
-
-.edu__curriculum-title {
-  background-color: var(--color-dark-gray);
-  color: var(--color-white);
-  font-size: var(--font-medium);
-  font-weight: var(--weight-semi-bold);
-  padding: 30px;
-  margin-right: 20px;
-  border-radius: var(--size-border-radius);
-  border: 1px solid var(--color-white);
-}
-
-.edu__curriculum-info {
-  color: var(--color-white);
-  font-size: var(--font-regular);
-  font-weight: var(--weight-regular);
-  padding: 15px;
 }

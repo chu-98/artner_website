@@ -140,7 +140,7 @@ p {
 
 .navbar__toggle-btn {
   position: absolute;
-  top: 24px;
+  top: 40px;
   right: 32px;
   font-size: 24px;
   color: var(--color-white);
@@ -258,16 +258,6 @@ p {
   margin: 0;
 }
 
-.edu__curriculum-button {
-  color: var(--color-dark-gray);
-  font-size: var(--font-regular);
-  font-weight: var(--weight-bold);
-  margin: 24px;
-  padding: 8px 12px;
-  border: 2px solid var(--color-dark-gray);
-  border-radius: var(--size-border-radius);
-}
-
 .edu__curriculum-table {
   display: flex;
   justify-content: center;
@@ -291,6 +281,38 @@ p {
   font-size: var(--font-regular);
   font-weight: var(--weight-regular);
   padding: 15px;
+}
+
+/* Software */
+#software img {
+  width: 100%;
+}
+
+#software h4 {
+  font-size: var(--font-regular);
+}
+.software__idea {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.software__idea-set {
+  margin: 0 20px;
+}
+
+.software__idea-set h1 {
+  background-color: var(--color-dark-gray);
+  color: var(--color-white);
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%;
+}
+
+.software__idea-set h2 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold);
 }
 
 /* Contact */

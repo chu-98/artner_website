@@ -1,0 +1,130 @@
+/* Global */
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-blue: #63a4ff;
+  --color-blue: #1976d2;
+  --color-dark-blue: #004ba0;
+  --color-light-orange: #ffd149;
+  --color-orange: #ffa000;
+  --color-dark-orange: #c67100;
+  --color-light-gray: #fbfbfb;
+  --color-semi-gray: #8f8f8f;
+  --color-gray: #888788;
+  --color-dark-gray: #373737;
+  --color-black: #000000;
+
+  /* Font Size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font Weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /* Size */
+  --size-border-radius: 4px;
+}
+
+/* Universal Tags */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Open Sans";
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.moreButton {
+  color: var(--color-dark-gray);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-dark-gray);
+  border-radius: var(--size-border-radius);
+}
+
+/* Typography */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-dark-gray);
+  margin: 16px 0px;
+}
+
+h2 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-dark-gray);
+  margin: 8px 0px;
+  padding-bottom: 36px;
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-dark-gray);
+  margin: 8px 0px;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-gray);
+  margin: 4px 0px;
+}
+
+/* Door */
+.about__door img {
+  width: 100%;
+  margin: 0;
+}
+
+/* Menu */
+.about__menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 40px 0;
+  background-color: var(--color-dark-gray);
+}
+
+.about__menu span {
+  color: var(--color-white);
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+}
+
+/* Content */
+.about__content {
+  padding: 40px 60px;
+}
+
+.about__content img {
+  width: 100%;
+}
